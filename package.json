@@ -1,0 +1,24 @@
+{
+  "name": "session-grpc",
+  "version": "1.0.0",
+  "description": "A simple gRPC server-client demo project using a dynamic loading",
+  "scripts": {
+    "start": "node server.js",
+    "demo": "node client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spywhere/session-grpc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spywhere/session-grpc/issues"
+  },
+  "homepage": "https://github.com/spywhere/session-grpc#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.1.5",
+    "@grpc/proto-loader": "^0.5.5"
+  }
+}
